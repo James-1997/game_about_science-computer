@@ -33,7 +33,32 @@ ModelImporter:
     4300004: GeoSphere001
     4300006: Star001
     4300008: PENINHA004
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #58'
+    second: {fileID: 2100000, guid: 4b855fbea4c1a5747839433f341e208f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #59'
+    second: {fileID: 2100000, guid: 77c067591a421894ca03396faf13bd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #61'
+    second: {fileID: 2100000, guid: 22dd11239733a3f4993396d293f4d157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #63'
+    second: {fileID: 2100000, guid: ef55401286509b44ba7f0ca125a50a4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #64'
+    second: {fileID: 2100000, guid: 20b0af0fa2ff6544cbc4219d1c5ec607, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
