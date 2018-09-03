@@ -70,7 +70,17 @@ ModelImporter:
     9500000: //RootNode
     13700000: FOFUCHO_MESH_CORPO
     13700002: FOFUCHO_MESH_ROUPA
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #26'
+    second: {fileID: 2100000, guid: f1115a43b073c254a8457cdf788e30bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: cc0336e8e95cc8241baa97d3d887828e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
