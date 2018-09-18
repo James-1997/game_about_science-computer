@@ -9,6 +9,9 @@ public class movePerson : MonoBehaviour {
 	Vector3 vetorDirecao = new Vector3(0,0,0);
 	float velocidade = 5.0f;
 	private float pulo = 5.0f;
+	
+	public GameObject jogador;
+	public Animation animacao;
 
 	// Use this for initialization
 	void Start () {
@@ -21,11 +24,24 @@ public class movePerson : MonoBehaviour {
 		transform.Rotate(new Vector3(0, Input.GetAxis("Horizontal") * giro * Time.deltaTime,0));
 		objetoCharControler.Move(forward * Time.deltaTime);
 		objetoCharControler.SimpleMove(Physics.gravity);
+
 		if (Input.GetButton("Jump")){
 			if(objetoCharControler.isGrounded == true) {
-				vetorDirecao.y = pulo;			
+				vetorDirecao.y = pulo;
+				jogador.GetComponent<Animation>().Play("Pulando");			
+			}
+		} else {
+			if (Input.GetButton("Horizontal") || Input.GetButton("Vertical")){
+				if (!animacao.IsPlaying("Pulando")){
+					jogador.GetComponent<Animation>().Play("Andando");
 				}
+			} else {
+				if(objetoCharControler.isGrounded == true) {
+					jogador.GetComponent<Animation>().Play("Parado");		
+				}
+			}
 		}
+
 		vetorDirecao.y -= 3.0f * Time.deltaTime;
 		objetoCharControler.Move(vetorDirecao * Time.deltaTime);
 
