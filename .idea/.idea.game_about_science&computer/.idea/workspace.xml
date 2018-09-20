@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9ee88e-30d9-4b7d-99be-3f65dc85ab18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movePerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movePerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/modelos3D/felpudoPlayer.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/modelos3D/felpudoPlayer.FBX.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,31 +17,48 @@
     <session id="940389941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.134" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1140" />
+          <entry key="cs" value="2995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1140" />
+          <entry key="C#" value="2995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+          <entry key="JSON" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -51,17 +71,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state>
+              <caret selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePerson.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -73,14 +111,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimaPena.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/movePerson.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/movePerson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/moveFelp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/moviPers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" />
       </list>
     </option>
   </component>
@@ -90,9 +135,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="width" value="864" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="562" />
+    <option name="y" value="12" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -100,12 +146,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+              <item name="Read only" type="7f48d1bd:ReadOnlyPackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -143,11 +203,23 @@
       <workItem from="1537236280852" duration="1161000" />
       <workItem from="1537237500709" duration="445000" />
       <workItem from="1537239976182" duration="1932000" />
+      <workItem from="1537405577885" duration="3564000" />
+      <workItem from="1537409367870" duration="2743000" />
+      <workItem from="1537466855350" duration="1469000" />
+      <workItem from="1537468426507" duration="31000" />
+      <workItem from="1537468469171" duration="62000" />
+      <workItem from="1537468603222" duration="214000" />
+      <workItem from="1537468860067" duration="163000" />
+      <workItem from="1537470208932" duration="228000" />
+      <workItem from="1537470498833" duration="76000" />
+      <workItem from="1537470614233" duration="489000" />
+      <workItem from="1537471165509" duration="759000" />
+      <workItem from="1537472374691" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4910000" />
+    <option name="totallyTimeSpent" value="15446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,9 +231,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="864" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08774584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,8 +248,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.22462562" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" visible="true" weight="0.22295082" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -205,20 +277,50 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePerson.cs" />
+    <entry file="file://$PROJECT_DIR$/Packages/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimaPena.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePerson.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/moveFelp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/moviPers.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>

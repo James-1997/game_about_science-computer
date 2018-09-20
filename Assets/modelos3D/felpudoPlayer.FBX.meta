@@ -66,9 +66,9 @@ ModelImporter:
     4300000: FOFUCHO_CTRL_PARENT
     4300002: FOFUCHO_MESH_CORPO
     4300004: FOFUCHO_MESH_ROUPA
-    7400000: Parado
-    7400002: Andando
-    7400004: Pulando
+    7400000: IDLE
+    7400002: WALK
+    7400004: JUMP
     9500000: //RootNode
     11100000: //RootNode
     13700000: FOFUCHO_MESH_CORPO
@@ -112,7 +112,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Parado
+      name: IDLE
       takeName: Take 001
       firstFrame: 0
       lastFrame: 49
@@ -140,7 +140,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Andando
+      name: WALK
       takeName: Take 001
       firstFrame: 51
       lastFrame: 70
@@ -168,7 +168,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Pulando
+      name: JUMP
       takeName: Take 001
       firstFrame: 71
       lastFrame: 100

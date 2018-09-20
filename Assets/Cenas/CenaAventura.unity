@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 2.844287, y: 2.3890624, z: 2.8442879}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &170076733
 GameObject:
@@ -253,7 +253,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0.8417618}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 49.403004, y: -66.667, z: -123.07001}
 --- !u!1 &439293916
 GameObject:
@@ -486,7 +486,7 @@ Transform:
   m_LocalScale: {x: 0.6653, y: 1.0149, z: 1.3708026}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 40.311, y: 55.264004, z: 8.189}
 --- !u!95 &534669906
 Animator:
@@ -580,7 +580,7 @@ Transform:
   m_LocalScale: {x: 3.8899894, y: 3.2674, z: 3.8899894}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1713069392 stripped
 GameObject:
@@ -635,7 +635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2102073533}
   - component: {fileID: 2102073538}
-  - component: {fileID: 2102073537}
+  - component: {fileID: 2102073534}
   m_Layer: 0
   m_Name: nodeJogadorFelpudo
   m_TagString: Untagged
@@ -650,14 +650,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2102073532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.22, z: 0}
+  m_LocalPosition: {x: 0.04, y: 0.15, z: 0.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1921495873}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2102073537
+--- !u!114 &2102073534
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102073532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c7010ae6cd14d64dac30d8dea4abe72, type: 3}
+  m_Script: {fileID: 11500000, guid: 36abc7bb13c7ad141948e600edf7b950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jogador: {fileID: 1713069392}
