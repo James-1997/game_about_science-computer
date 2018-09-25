@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4040105830140498}
   - component: {fileID: 114445656589811806}
+  - component: {fileID: 65976810570929062}
   m_Layer: 0
   m_Name: PENA
   m_TagString: Untagged
@@ -113,6 +114,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1549059005209004}
   m_Mesh: {fileID: 4300008, guid: d3924a5ba01d7764db5f034dae9f251c, type: 3}
+--- !u!65 &65976810570929062
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561299179266974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.3, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114445656589811806
 MonoBehaviour:
   m_ObjectHideFlags: 1
