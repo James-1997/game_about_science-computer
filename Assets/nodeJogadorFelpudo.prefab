@@ -915,6 +915,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jogador: {fileID: 1240042606750824}
   animacao: {fileID: 111452679588247514}
+  fire: {fileID: 1455031344745124, guid: 16f313e984099ca4598f18a37dd58ea3, type: 2}
+  ParticulaOvo: {fileID: 1134774775304360, guid: 044d0da353dd8844c899a1f9b6f8c5f6,
+    type: 2}
+  ParticulaPena: {fileID: 1781941313514776, guid: a1309518a7a4bbb4d9856cc7f53c3593,
+    type: 2}
+  ParticulaEstrela: {fileID: 1918803282729376, guid: c44e4ff058aa26a48a356022ee462fc3,
+    type: 2}
 --- !u!137 &137359464198847720
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

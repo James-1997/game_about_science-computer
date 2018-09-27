@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9ee88e-30d9-4b7d-99be-3f65dc85ab18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ESTRELA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ESTRELA.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OVO.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OVO.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PENA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PENA.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/nodeJogadorFelpudo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/nodeJogadorFelpudo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,25 +57,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3327" />
+          <entry key="cs" value="3492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3327" />
+          <entry key="C#" value="3492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="5" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="5" />
           <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
@@ -95,11 +97,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="85" column="89" selection-start-line="85" selection-start-column="89" selection-end-line="85" selection-end-column="89" />
+              <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <marker date="1538079340971" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538079340971" expanded="true" signature="124:340" ph="{...}" />
+                <marker date="1538079340971" expanded="true" signature="190:254" ph="{...}" />
+                <marker date="1538079340971" expanded="true" signature="272:338" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +130,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimaPena.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,6 +142,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/moveFelp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/moviPers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" />
+        <option value="$PROJECT_DIR$/Assets/movimetaCamera.cs" />
       </list>
     </option>
   </component>
@@ -133,7 +152,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -214,12 +233,12 @@
       <workItem from="1537472374691" duration="738000" />
       <workItem from="1537473965128" duration="22000" />
       <workItem from="1537732870499" duration="12000" />
-      <workItem from="1538076808330" duration="1279000" />
+      <workItem from="1538076808330" duration="1937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16759000" />
+    <option name="totallyTimeSpent" value="17417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +328,20 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="85" column="89" selection-start-line="85" selection-start-column="89" selection-end-line="85" selection-end-column="89" />
+          <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <marker date="1538079340971" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538079340971" expanded="true" signature="124:340" ph="{...}" />
+            <marker date="1538079340971" expanded="true" signature="190:254" ph="{...}" />
+            <marker date="1538079340971" expanded="true" signature="272:338" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 65730982272064820}
   m_Layer: 0
   m_Name: ESTRELA
-  m_TagString: Untagged
+  m_TagString: ESTRELA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
