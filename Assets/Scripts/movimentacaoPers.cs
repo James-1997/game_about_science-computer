@@ -104,7 +104,7 @@ public class movimentacaoPers : MonoBehaviour {
 			objetoCharControler.Move(transform.TransformDirection(Vector3.back)*3);
 		}
 		if (other.gameObject.tag == "BURACO"){
-		
+			Application.LoadLevel("CenaAventura");
 		}
 	}
 
