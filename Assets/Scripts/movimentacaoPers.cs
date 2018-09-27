@@ -96,6 +96,7 @@ public class movimentacaoPers : MonoBehaviour {
 			if(podePegarEst) {
 				Instantiate(ParticulaEstrela, other.gameObject.transform.position, Quaternion.identity);
 				other.gameObject.SetActive(false);
+				Invoke("carregaFase",3);
 			}
 		}
 		if (other.gameObject.tag == "FOGUEIRA"){
@@ -118,6 +119,10 @@ public class movimentacaoPers : MonoBehaviour {
 			podePegarEst = true;
 			Destroy(ParticulaFogo);
 		}
+	}
+	
+	void carregaFase(){
+		Application.LoadLevel("CenaAventura");
 	}
 
 }
