@@ -12,10 +12,12 @@ public class movimentacaoPers : MonoBehaviour {
 	private Vector3 vetorDirecao = new Vector3(0,0,0); 
 
 	float contaPisca = 0;
+	bool podePegarEst = false;
+	int numeroObjts = 0;
  
 	public GameObject jogador;
 	public Animation animacao;
-	public GameObject fire;
+	public GameObject ParticulaFogo;
 	public GameObject ParticulaOvo;
 	public GameObject ParticulaPena;
 	public GameObject ParticulaEstrela;
@@ -79,14 +81,18 @@ public class movimentacaoPers : MonoBehaviour {
 		if (other.gameObject.tag == "OVO"){
 			Instantiate(ParticulaOvo, other.gameObject.transform.position, Quaternion.identity);
 			other.gameObject.SetActive(false);
+			numeroObjts=+5; verificaPickObjetos();
 		}
 		if (other.gameObject.tag == "PENA"){
 			Instantiate(ParticulaPena, other.gameObject.transform.position, Quaternion.identity);
 			other.gameObject.SetActive(false);
+			numeroObjts++; verificaPickObjetos();
 		}
 		if (other.gameObject.tag == "ESTRELA"){
-			Instantiate(ParticulaEstrela, other.gameObject.transform.position, Quaternion.identity);
-			other.gameObject.SetActive(false);
+			if(podePegarEst) {
+				Instantiate(ParticulaEstrela, other.gameObject.transform.position, Quaternion.identity);
+				other.gameObject.SetActive(false);
+			}
 		}
 		if (other.gameObject.tag == "FOGUEIRA"){
 			InvokeRepeating("mudaEstadoFelpudo",0,0.1f);
@@ -101,6 +107,13 @@ public class movimentacaoPers : MonoBehaviour {
 		contaPisca++;
 		jogador.SetActive(!jogador.activeInHierarchy);
 		if (contaPisca>7){contaPisca=0;jogador.SetActive(true);CancelInvoke();}
+	}
+
+	void verificaPickObjetos(){
+		if(numeroObjts>10){
+			podePegarEst = true;
+			Destroy(ParticulaFogo);
+		}
 	}
 
 }
