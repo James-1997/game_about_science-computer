@@ -13,6 +13,10 @@ public class movimentacaoPers : MonoBehaviour {
  
 	public GameObject jogador;
 	public Animation animacao;
+	public GameObject fire;
+	public GameObject ParticulaOvo;
+	public GameObject ParticulaPena;
+	public GameObject ParticulaEstrela;
  
 	void Start () { 
 		objetoCharControler = GetComponent<CharacterController>(); 
@@ -68,5 +72,28 @@ public class movimentacaoPers : MonoBehaviour {
 		vetorDirecao.y -= gravidade * Time.deltaTime;	
 		objetoCharControler.Move(vetorDirecao * Time.deltaTime);
 	}
+
+	void OnTriggerEnter(Collider other){
+		if (other.gameObject.tag == "OVO"){
+			Instantiate(ParticulaOvo, other.gameObject.transform.position, Quaternion.identity);
+			other.gameObject.SetActive(false);
+		}
+		if (other.gameObject.tag == "PENA"){
+			Instantiate(ParticulaPena, other.gameObject.transform.position, Quaternion.identity);
+			other.gameObject.SetActive(false);
+		}
+		if (other.gameObject.tag == "ESTRELA"){
+			Instantiate(ParticulaEstrela, other.gameObject.transform.position, Quaternion.identity);
+			other.gameObject.SetActive(false);
+		}
+		if (other.gameObject.tag == "FOGUEIRA"){
+			
+		}
+		if (other.gameObject.tag == "BURACO"){
+		
+		}
+	}
+
+
 }
 
