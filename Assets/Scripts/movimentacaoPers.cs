@@ -12,8 +12,8 @@ public class movimentacaoPers : MonoBehaviour {
 	private Vector3 vetorDirecao = new Vector3(0,0,0); 
 
 	float contaPisca = 0;
-	bool podePegarEst = false;
-	int numeroObjts = 0;
+	bool podePegarEst;
+	int numeroObjts;
  
 	public GameObject jogador;
 	public Animation animacao;
@@ -23,6 +23,8 @@ public class movimentacaoPers : MonoBehaviour {
 	public GameObject ParticulaEstrela;
  
 	void Start () { 
+		podePegarEst = false;
+	    numeroObjts = 0;
 		objetoCharControler = GetComponent<CharacterController>(); 
 		animacao = jogador.GetComponent<Animation>();
 	}
@@ -81,12 +83,14 @@ public class movimentacaoPers : MonoBehaviour {
 		if (other.gameObject.tag == "OVO"){
 			Instantiate(ParticulaOvo, other.gameObject.transform.position, Quaternion.identity);
 			other.gameObject.SetActive(false);
-			numeroObjts=+5; verificaPickObjetos();
+			numeroObjts=numeroObjts+5; 
+			verificaPickObjetos();
 		}
 		if (other.gameObject.tag == "PENA"){
 			Instantiate(ParticulaPena, other.gameObject.transform.position, Quaternion.identity);
 			other.gameObject.SetActive(false);
-			numeroObjts++; verificaPickObjetos();
+			numeroObjts++; 
+			verificaPickObjetos();
 		}
 		if (other.gameObject.tag == "ESTRELA"){
 			if(podePegarEst) {
