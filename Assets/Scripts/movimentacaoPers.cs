@@ -10,6 +10,8 @@ public class movimentacaoPers : MonoBehaviour {
 	private float pulo = 6.0f;
 	private CharacterController objetoCharControler;
 	private Vector3 vetorDirecao = new Vector3(0,0,0); 
+
+	float contaPisca = 0;
  
 	public GameObject jogador;
 	public Animation animacao;
@@ -87,13 +89,19 @@ public class movimentacaoPers : MonoBehaviour {
 			other.gameObject.SetActive(false);
 		}
 		if (other.gameObject.tag == "FOGUEIRA"){
-			
+			InvokeRepeating("mudaEstadoFelpudo",0,0.1f);
+			objetoCharControler.Move(transform.TransformDirection(Vector3.back)*3);
 		}
 		if (other.gameObject.tag == "BURACO"){
 		
 		}
 	}
 
+	void mudaEstadoFelpudo(){
+		contaPisca++;
+		jogador.SetActive(!jogador.activeInHierarchy);
+		if (contaPisca>7){contaPisca=0;jogador.SetActive(true);CancelInvoke();}
+	}
 
 }
 

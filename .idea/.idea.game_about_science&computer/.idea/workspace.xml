@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9ee88e-30d9-4b7d-99be-3f65dc85ab18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ESTRELA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ESTRELA.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OVO.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OVO.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PENA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PENA.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/nodeJogadorFelpudo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/nodeJogadorFelpudo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3492" />
+          <entry key="cs" value="3798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3492" />
+          <entry key="C#" value="3798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -97,16 +90,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
+            <state relative-caret-position="354">
+              <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -141,8 +134,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/moveFelp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/moviPers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" />
         <option value="$PROJECT_DIR$/Assets/movimetaCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" />
       </list>
     </option>
   </component>
@@ -233,12 +226,12 @@
       <workItem from="1537472374691" duration="738000" />
       <workItem from="1537473965128" duration="22000" />
       <workItem from="1537732870499" duration="12000" />
-      <workItem from="1538076808330" duration="1937000" />
+      <workItem from="1538076808330" duration="2717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17417000" />
+    <option name="totallyTimeSpent" value="18197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,13 +318,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -342,6 +328,13 @@
             <marker date="1538079340971" expanded="true" signature="190:254" ph="{...}" />
             <marker date="1538079340971" expanded="true" signature="272:338" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
         </state>
       </provider>
     </entry>
