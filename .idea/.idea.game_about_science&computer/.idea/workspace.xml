@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ea9ee88e-30d9-4b7d-99be-3f65dc85ab18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game_about_science&amp;computer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/CenaAventura.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/movimetaCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/movimetaCamera.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,50 +31,47 @@
     <session id="940389941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.134" value="1" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.open.time.84" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4381" />
+          <entry key="cs" value="4351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4381" />
+          <entry key="C#" value="4351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="14" />
+          <entry key="cs" value="7" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="14" />
+          <entry key="C#" value="7" />
           <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
@@ -93,74 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Base/JoystickModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/VariableJoystick.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FixedJoystick.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/3D Example/Player3DExample.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/2D Example/Player2DExample.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/materialDesignMobile/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1206">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="264">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
@@ -171,16 +108,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Base/JoystickModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimaPena.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/materialDesignMobile/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/animaEstrela.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/3D Example/Player3DExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/2D Example/Player2DExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/VariableJoystick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/killParticuleEst.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/killParticulaPena.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/killParticulaOvo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,12 +129,6 @@
         <option value="$PROJECT_DIR$/Assets/killParticuleEst.cs" />
         <option value="$PROJECT_DIR$/Assets/killParticulaPena.cs" />
         <option value="$PROJECT_DIR$/Assets/killParticulaOvo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Base/JoystickModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/VariableJoystick.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/3D Example/Player3DExample.cs" />
-        <option value="$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/2D Example/Player2DExample.cs" />
       </list>
     </option>
   </component>
@@ -211,7 +138,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -224,6 +151,7 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -241,7 +169,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,17 +220,12 @@
       <workItem from="1537473965128" duration="22000" />
       <workItem from="1537732870499" duration="12000" />
       <workItem from="1538076808330" duration="7135000" />
-      <workItem from="1538100723009" duration="946000" />
-      <workItem from="1538159835529" duration="21000" />
-      <workItem from="1538159952536" duration="9000" />
-      <workItem from="1538230580501" duration="33000" />
-      <workItem from="1538230689815" duration="109000" />
-      <workItem from="1538230856685" duration="61000" />
+      <workItem from="1538100723009" duration="509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23794000" />
+    <option name="totallyTimeSpent" value="22898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,9 +237,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="676" y="0" width="697" height="735" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10989011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09419152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,12 +294,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/moviPers.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/movePersonagem.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentoTank.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/killParticuleEst.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/killParticulaOvo.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/killParticulaPena.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/materialDesignMobile/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Base/joystick.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimaPena.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -387,59 +304,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/movimetaCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/killParticuleEst.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/killParticulaOvo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/killParticulaPena.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/movimentacaoPers.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Base/JoystickModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/VariableJoystick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Scripts/Joysticks/FixedJoystick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/3D Example/Player3DExample.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Virtual Joystick Pack/Examples/2D Example/Player2DExample.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/materialDesignMobile/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1206">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="264">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
